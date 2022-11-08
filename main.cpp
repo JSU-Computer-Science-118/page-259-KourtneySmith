@@ -1,4 +1,4 @@
-// Write your code here
+// write your code here
 // Kourtney Smith J00951715 11/8/2022
 #include <iostream>
 #include <cmath>

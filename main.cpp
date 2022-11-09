@@ -18,12 +18,12 @@ int main() {
   if (discr > 0) {
     root1 = (-b + pow(discr,0.5)) / 2*a;
     root2 = (-b - pow(discr,0.5)) / 2*a;
-    printf ("Roots are : %.2f and %.2f", root1, root2); }
+    printf ("Two real roots - First Root - Second Root -", root1, root2); }
   if (discr == 0) {
     root1 =(-b + pow(discr,0.5)) / 2*a;
-    printf ("Root is: %.2f", root1);}
+    printf ("Single Root is ", root1);}
 if (discr < 0) {
-  cout << "Complex Roots." << endl;
+  cout << "Complex Roots" << endl;
 }
   return 0;
   }

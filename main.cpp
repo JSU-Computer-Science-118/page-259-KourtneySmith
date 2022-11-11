@@ -4,26 +4,28 @@
 #include <cmath>
 using namespace std;
 
-int main() {
-   int a, b, c;
-  float discr, root1, root2;
-  cout << "Enter the coefficient of x^2: ";
-  cin >> a;
-  cout << "Enter the coefficient of x: ";
-  cin >> b;
-  cout << "Enter the constant term: ";
-  cin >> c;
-  cout << endl;
-  discr = b*b - 4*a*c;
-  if (discr > 0) {
-    root1 = (-b + pow(discr,0.5)) / 2*a;
-    root2 = (-b - pow(discr,0.5)) / 2*a;
-    printf ("Two real roots - First Root - Second Root -", root1, root2); }
-  if (discr == 0) {
-    root1 =(-b + pow(discr,0.5)) / 2*a;
-    printf ("Single Root is ", root1);}
-if (discr < 0) {
-  cout << "Complex Roots" << endl;
+int rootl;
+int root2;
+double discriminant;
+cout <‹ "Enter the value of a,b,c: "; cin >> a>>b>>c;
+
+discriminant = pow(b,2) - 4 * a * c;
+root1 = (-b + sqrt (discriminant))/ (2 * a);
+root2 = (-b - sqrt (discriminant))/ (2 * a);
+
+if (discriminant == 0){
+cout <‹ "The single root is "‹‹rooti‹‹endl;
 }
-  return 0;
-  }
+
+else if(discriminant > 0){
+cout << "Two real roots\n": 
+   cout <<"-First root "<<root1 << mIn";
+cout <<"-Second root " <‹ root2 <‹ "\n";
+}
+
+else if (discriminant < 0){
+cout << "Complex roots\n";
+
+}
+
+return 0;

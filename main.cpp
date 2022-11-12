@@ -13,9 +13,9 @@ int main() {
 cin >> a>>b>>c;
 
 discriminant = b*b - 4*a*c;
- root1 = (-b + pow(discriminant,0.5)) / 2*a;
-  root2 = (-b - pow(discriminant,0.5)) / 2*a;
-
+ root1 = (-b + sqrt (discriminant))/ (2 * a);
+root2 = (-b - sqrt (discriminant))/ (2 * a);
+  
 if (discriminant == 0){
 cout << "The single root is "<< root1<<endl;
 }

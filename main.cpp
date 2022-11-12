@@ -15,7 +15,7 @@ root1 = (-b + sqrt (discriminant))/ (2 * a);
 root2 = (-b - sqrt (discriminant))/ (2 * a);
 
 if (discriminant == 0){
-cout << "The single root is "<< root1‹‹endl;
+cout << "The single root is "<< root1<<endl;
 }
 
 else if(discriminant > 0){

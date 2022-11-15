@@ -22,12 +22,12 @@ cout << "The single root is "<< root1<<endl;
 
 else if(discriminant > 0){
 cout << "Two real roots\n"; 
-   cout <<"-First root "<<root1 << "\n" << endl;
-cout <<"-Second root " << root2 << "\n"<< endl;
+   cout <<"-First root "<<root1 << endl;
+cout <<"-Second root " << root2 << endl;
 }
 
 else if (discriminant < 0){
-cout << "Complex roots\n"<< endl;
+cout << "Complex roots"<< endl;
 
 }
 
